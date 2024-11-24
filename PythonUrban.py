@@ -14,6 +14,3 @@ print(2 * 2 + 2 == 2 * (2 + 2)) # Ответ: False
 
 # "4th program"
 print(int(float('123.456') * 10 % 10)) # Ответ: 4
-
-
-
