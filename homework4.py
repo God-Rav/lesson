@@ -6,7 +6,6 @@ print(example[::-1])
 print(example[0:7:2])
 
 # result:
-# Р
 # С
 # й
 # рай
