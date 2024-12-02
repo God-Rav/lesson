@@ -1,5 +1,4 @@
 # Практическое задание по теме: "Словари и множества"
-from pprint import pformat
 
 # 1. В проекте, где вы решаете домашние задания, создайте модуль 'module_1_6.py' и напишите весь код в нём.
 
@@ -21,3 +20,13 @@ my_set.add(5)
 b = (7, 8, 1.9)
 my_set.add(b)
 print('Modified set:', my_set)
+
+# result:
+# Dict: {'Вася': 1990, 'Петя': 1993, 'Коля': 1996}
+# Existing value: 1990
+# Not existing value: None
+# Deleted value: 1990
+# Modified dictionary: {'Петя': 1993, 'Коля': 1996, 'Света': 1991, 'Катя': 1994}
+ 
+# Set: {0, 1, 2, 3, 2.5, 'Хлеб'}
+# Modified set: {0, 1, 2, 3, 2.5, 5, 'Хлеб', (7, 8, 1.9)}
