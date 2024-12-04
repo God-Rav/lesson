@@ -9,8 +9,6 @@ student_johnny = (sum(grades[2]) / len(grades[2]))
 student_khendrik = (sum(grades[3]) / len(grades[3]))
 student_steve = (sum(grades[4]) / len(grades[4]))
 
-name_student = [student_aaron, student_bilbo, student_johnny, student_khendrik, student_steve]
-
 students = sorted(list(students))
 keys = {students[0]: student_aaron, students[1]: student_bilbo, students[2]: student_johnny,
          students[3]: student_khendrik, students[4]: student_steve}
