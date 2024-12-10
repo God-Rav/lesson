@@ -10,11 +10,11 @@ while index < len(my_list):
     number = my_list[index]
     index += 1
     if number < 0:
-        continue
-    if number > 0:
-        print(number)
-    if index == 6:
         break
+    elif number == 0:
+        continue
+    else:
+        print(number)
 
 # result:
 
